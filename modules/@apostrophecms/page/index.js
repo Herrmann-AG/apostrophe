@@ -6,11 +6,15 @@ module.exports = {
     types: [
       {
         name: 'default-page',
-        label: 'Default'
+        label: 'Standard'
       },
       {
         name: '@apostrophecms/home-page',
-        label: 'Home'
+        label: 'Startseite'
+      },
+      {
+        name: 'gallery-page',
+        label: 'Galerie'
       }
     ]
   }

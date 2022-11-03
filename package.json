@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "dev": "nodemon",
+    "dev": "nodemon & npx tailwindcss -o ./modules/asset/ui/src/scss/_tailwind.scss --watch",
     "build": "bash ./scripts/heroku-release-tasks",
     "serve": "NODE_ENV=production node app",
     "release": "npm install && npm run build && node app @apostrophecms/migration:migrate"
@@ -41,12 +41,14 @@
   "license": "MIT",
   "dependencies": {
     "apostrophe": "^3.0.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "tinymce": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
     "eslint-config-apostrophe": "^3.4.0",
     "eslint-plugin-node": "^11.1.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "tailwindcss": "^3.2.1"
   }
 }

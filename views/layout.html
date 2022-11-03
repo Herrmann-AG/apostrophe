@@ -10,9 +10,32 @@
 {% endblock %}
 
 {% block beforeMain %}
+<script src="/tinymce/tinymce.js" referrerpolicy="origin"></script>
 <div class="bp-wrapper">
   <header class="bp-header">
-    <nav class="bp-nav"></nav>
+    <nav class="bp-nav flex flex-row gap-2">
+      {% if data.home._id == data.page._id %}
+        <li class="list-none font-bold">
+          <a href="/">Startseite</a>
+        </li>
+      {% else %}
+        <li class="list-none">
+          <a href="/">Startseite</a>
+        </li>
+      {% endif %}
+
+      {% for page in data.home._children %}
+        {% if page._id == data.page._id %} 
+        <li class="list-none font-bold">
+          <a href="{{ page._url }}">{{ page.title }}</a>
+        </li>
+        {% else %}
+        <li class="list-none">
+          <a href="{{ page._url }}">{{ page.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </nav>
     {% if not data.user %}
       <a class="bp-button bp-header__login" href="/login">Login</a>
     {% endif %}

@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <header>
+        <h1 class="text-4xl font-black">{{ data.page.title }}</h1>
+        {% if data.page.subtitle %}
+            <h2 class="text-xl font-bold">{{ data.page.subtitle }}</h2>
+        {% endif %}
+    </header>
+    {% area data.page, 'main' %}
+{% endblock %}

@@ -30,5 +30,7 @@ require('apostrophe')({
     asset: {},
     // The project's first custom page type.
     'default-page': {},
+    'gallery-page': {},
+    'tinymce-widget': {},
   }
 });
