@@ -1,0 +1,8 @@
+<!-- columns-1 columns-2 columns-3 columns-4 columns-5 columns-6 -->
+<section data-column-widget class="w-full flex flex-row columns-{{data.widget.colNumber}}">
+    {% for i in range(0, data.widget.colNumber) %}
+        <div class="flex flex-col w-full">
+            {% area data.widget, 'col'+(i+1) %}
+        </div>
+    {% endfor %}
+</section>

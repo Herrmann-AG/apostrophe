@@ -31,6 +31,6 @@ require('apostrophe')({
     // The project's first custom page type.
     'default-page': {},
     'gallery-page': {},
-    'tinymce-widget': {},
+    'column-widget': {},
   }
 });

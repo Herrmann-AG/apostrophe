@@ -11,7 +11,7 @@ module.exports = {
                     widgets: {
                         '@apostrophecms/rich-text': {},
                         '@apostrophecms/image': {},
-                        'tinymce': {}
+                        'column': {},
                     }
                 }
             }
