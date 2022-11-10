@@ -50,6 +50,8 @@
   import Placeholder from '@tiptap/extension-placeholder';
   import TextStyle from '@tiptap/extension-text-style';
   import {Color} from '@tiptap/extension-color';
+  import {FontFamily} from '@tiptap/extension-font-family';
+  import {Typography} from '@tiptap/extension-typography';
   
   export default {
     name: 'AposRichTextWidgetEditor',
@@ -199,6 +201,8 @@
         Underline,
         TextStyle,
         Color,
+        FontFamily,
+        Typography,
   
         // For this contextual widget, no need to check `widget.aposPlaceholder` value
         // since `placeholderText` option is enough to decide whether to display it or not.

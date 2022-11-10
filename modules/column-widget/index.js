@@ -17,7 +17,23 @@ module.exports = {
         label: "Spalte 1",
         options: {
           widgets: {
-            "@apostrophecms/rich-text": {},
+            "@apostrophecms/rich-text": {
+              fonts: [
+                "Schriftart auswählen",
+                "Arial",
+                "Arial Black",
+                "Comic Sans MS",
+                "Courier New",
+                "Georgia",
+                "Helvetica",
+                "Impact",
+                "Times New Roman",
+                "Trebuchet MS",
+                "Verdana",
+                "Webdings",
+                "Wingdings",
+              ],
+            },
             "@apostrophecms/image": {},
           },
         },
@@ -35,7 +51,23 @@ module.exports = {
         label: "Spalte 2",
         options: {
           widgets: {
-            "@apostrophecms/rich-text": {},
+            "@apostrophecms/rich-text": {
+              fonts: [
+                "Schriftart auswählen",
+                "Arial",
+                "Arial Black",
+                "Comic Sans MS",
+                "Courier New",
+                "Georgia",
+                "Helvetica",
+                "Impact",
+                "Times New Roman",
+                "Trebuchet MS",
+                "Verdana",
+                "Webdings",
+                "Wingdings",
+              ],
+            },
             "@apostrophecms/image": {},
           },
         },
@@ -52,7 +84,23 @@ module.exports = {
         label: "Spalte 3",
         options: {
           widgets: {
-            "@apostrophecms/rich-text": {},
+            "@apostrophecms/rich-text": {
+              fonts: [
+                "Schriftart auswählen",
+                "Arial",
+                "Arial Black",
+                "Comic Sans MS",
+                "Courier New",
+                "Georgia",
+                "Helvetica",
+                "Impact",
+                "Times New Roman",
+                "Trebuchet MS",
+                "Verdana",
+                "Webdings",
+                "Wingdings",
+              ],
+            },
             "@apostrophecms/image": {},
           },
         },
@@ -68,7 +116,23 @@ module.exports = {
         label: "Spalte 4",
         options: {
           widgets: {
-            "@apostrophecms/rich-text": {},
+            "@apostrophecms/rich-text": {
+              fonts: [
+                "Schriftart auswählen",
+                "Arial",
+                "Arial Black",
+                "Comic Sans MS",
+                "Courier New",
+                "Georgia",
+                "Helvetica",
+                "Impact",
+                "Times New Roman",
+                "Trebuchet MS",
+                "Verdana",
+                "Webdings",
+                "Wingdings",
+              ],
+            },
             "@apostrophecms/image": {},
           },
         },
